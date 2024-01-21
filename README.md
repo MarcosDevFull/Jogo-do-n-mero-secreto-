@@ -1,0 +1,1 @@
+Neste projeto desenvolvemos um jogo em que o usuário deverá acertar o número secreto que foi gerado aleatóriamente pelo sistema que foi criado, ou seja, além de o usuário conseguir palpitar qual é o número secreto, o sistema também vai dando pistas se o número secreto palpitado pelo usuário é menor ou maior. 
