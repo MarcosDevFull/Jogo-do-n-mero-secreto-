@@ -9,8 +9,8 @@ function exibirTextoNaTela(tag,texto){
 }
 function mensagemInicial() {
     exibirTextoNaTela("h1","JOGO DO NÚMERO SECRETO");
-    exibirTextoNaTela("P","Escolha abaixo um número aleatório de 1 á 100");
-    exibirTextoNaTela("h2","Boa sorte ! ");
+    exibirTextoNaTela("P","Escolha abaixo um número aleatório de 1 á 10 e se divirta");
+    exibirTextoNaTela("h2","Boa sorte seu lindo (a) ! ");
 }
 mensagemInicial();
 
@@ -36,7 +36,7 @@ function verificarChute(){
 }
 
 function gerarNumero() {
-    return parseInt(Math.random() * 100 + 1);
+    return parseInt(Math.random() * 10 + 1);
 }
 
 function limparCampo() {
